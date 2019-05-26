@@ -1,0 +1,41 @@
+#popular   {
+  margin-top: 47px;
+  margin-right: 0;
+}
+#popular div {
+  display: flex;
+}
+#popular ul {
+  list-style-type: none;
+}
+#popular ul li {
+  width: 110px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+#popular a {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+#popular ul {
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border: 1px solid #becabb;
+  background: #ecf3ea;
+}
+
+#popular button {
+  width: 50px;
+  margin-left: auto;
+}
+#popular .popular-title a {
+  margin-left: 450px;
+  margin-top: 10px;
+}
+

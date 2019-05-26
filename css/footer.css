@@ -15,7 +15,7 @@
 #footer .container {
   display: block;
 }
-#footerbar .footer-title u {
+#footerbar .footer-title a {
   margin-left: auto;
   font-size: smaller;
   color: aliceblue;
@@ -24,7 +24,7 @@
   font-size: x-large;
   color: aliceblue;
 }
-#footerbar .footer-content p {
+#footerbar .footer-content a {
   font-size: smaller;
   color: aliceblue;
   font-family: inherit;

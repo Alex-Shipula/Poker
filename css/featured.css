@@ -1,0 +1,35 @@
+#featured .new-games ul {
+    list-style-type: none;
+  }
+  #featured .new-games ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #featured .new-games ul li {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #featured .new-games ul {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  #featured .new-games ul li .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #featured .new-games ul button {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-left: auto;
+  }
+  
+  #featured .new-games div a {
+    font-size: smaller;
+  }

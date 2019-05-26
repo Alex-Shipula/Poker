@@ -2,11 +2,15 @@
 @import url("menu.css");
 @import url("main.css");
 @import url("footer.css");
+@import url("popular.css");
+@import url("featured.css");
+@import url("content.css");
+@import url("sidebar.css");
 
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
-  
 }
 
 @media (min-width: 1200px) {

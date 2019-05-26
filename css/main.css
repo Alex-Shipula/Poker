@@ -4,247 +4,6 @@
 #main .row {
   font-size: 12px;
 }
-#sidebar .sidebar_top div {
-  height: 8px;
-}
-#sidebar .sidebar_top h5 {
-  font-size: initial;
-}
-#sidebar .sidebar_top button {
-  margin-left: 39px;
-}
-#sidebar .sidebar_top h5 img {
-  margin-right: 15px;
-}
-#content .slider img {
-  height: 270px;
-  width: 450px;
-}
-#content .slider h5 {
-  width: 120px;
-  margin-left: 160px;
-}
-
-#featured .new-games ul {
-  list-style-type: none;
-}
-#featured .new-games ul {
-  display: flex;
-  flex-direction: column;
-}
-
-#featured .new-games ul li {
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-}
-
-#featured .new-games ul {
-  width: -webkit-fill-available;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px 15px;
-}
-#featured .new-games ul li .info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#featured .new-games ul button {
-  align-self: flex-end;
-  margin-top: auto;
-  margin-left: auto;
-}
-
-#featured .new-games div a {
-  font-size: smaller;
-}
-
-#popular {
-  margin-top: 5px;
-}
-#popular div {
-  display: flex;
-}
-#popular ul {
-  list-style-type: none;
-}
-#popular ul li {
-  width: 110px;
-  height: 160px;
-  display: flex;
-  flex-direction: column;
-}
-#popular p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  flex-grow: 1;
-}
-
-#popular ul {
-  width: -webkit-fill-available;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 15px;
-  border: 1px solid #becabb;
-  background: #ecf3ea;
-}
-
-#popular button {
-  width: 50px;
-  margin-left: auto;
-}
-#popular .popular-title u {
-  margin-left: 450px;
-  margin-top: 10px;
-}
-
-#sidebar .bonus {
-  display: grid;
-  margin-top: 70px;
-}
-#sidebar .bonus div {
-  display: flex;
-  height: 70px;
-}
-#sidebar .bonus button {
-  margin-top: auto;
-  margin-left: -50px;
-}
-#sidebar .bonus p {
-  margin-left: 7px;
-  width: 100px;
-}
-
-#sidebar .casino {
-  display: grid;
-  margin-top: 70px;
-}
-#sidebar .casino div {
-  display: flex;
-  height: 70px;
-}
-#sidebar .casino button {
-  margin-top: auto;
-  margin-left: -50px;
-}
-#sidebar .casino p {
-  margin-left: 7px;
-  width: 100px;
-}
-
-#content .avtomat {
-  padding: 10px 15px;
-  border: 1px solid #869290;
-}
-#content .avtomat_2 ul {
-  list-style-type: none;
-}
-#content .avtomat_2 ul {
-  display: flex;
-  flex-direction: column;
-}
-
-#content .avtomat_2 ul li {
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-}
-
-#content .avtomat_2 ul {
-  width: -webkit-fill-available;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px 15px;
-  padding-left: unset;
-}
-#content .avtomat_2 ul li .info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#content .avtomat_2 ul button {
-  align-self: flex-end;
-  margin-top: auto;
-  margin-left: auto;
-}
-
-#content .avtomat_2 div a {
-  font-size: smaller;
-}
-
-#content .header_avtomat u {
-  margin-left: 380px;
-}
- #content .avtomat_1 img {
-   width: 210px;
- }
-#content .avtomat_1 {
-  display: flex;
-  flex-direction: column;
-}
-#content .avtomat_1 button {
-  width: 55px;
-  margin-left: auto;
-}
-
-#content .roulette {
-  padding: 10px 15px;
-  border: 1px solid #869290;
-}
-
-#content .header_roulette u {
-  margin-left: 380px;
-}
-
-#content .roulette_1 {
-  display: flex;
-  flex-direction: column;
-}
-#content .roulette_1 button {
-  width: 55px;
-  margin-left: auto;
-}
-
-#content .roulette_2 ul {
-  list-style-type: none;
-}
-#content .roulette_2 ul {
-  display: flex;
-  flex-direction: column;
-}
-
-#content .roulette_2 ul li {
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-}
-
-#content .roulette_2 ul {
-  width: -webkit-fill-available;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px 15px;
-  padding-left: unset;
-}
-#content .roulette_2 ul li .info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-#content .roulette_2 ul button {
-  align-self: flex-end;
-  margin-top: auto;
-  margin-left: auto;
-}
-
-#content .roulette_2 div a {
-  font-size: smaller;
-}
 #main li .image1 {
   display: flex;
   padding-bottom: 5px;
@@ -261,28 +20,6 @@
   margin-right: 5px;
   padding-top: 5px;
 }
-
-#content .news div img {
-  width: 215px;
-}
-#popular {
-  margin: 0;
-}
-#content .news div {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-#content .news a u {
-  font-size: larger;
-}
-#content .avtomat {
-  margin-right: -10px;
-}
-#content .roulette {
-  margin-right: -10px;
-}
-
 #main li .info {
   display: flex;
   flex-direction: column;
@@ -294,3 +31,17 @@
   margin-top: auto;
   margin-left: auto;
 }
+
+#main .href{
+  font-size: 14px;
+  color:black;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
