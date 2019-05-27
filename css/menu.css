@@ -1,128 +1,111 @@
 #menu {
-    background-color: #eef3eb;
-    display: flex;
-    height: 55px;
-    
-  }
-  #menu .menu{
-    justify-content: space-between;
-    height: 40px;
-    align-items: center;
-  }
-  
-  #menu a {
-    font-weight: 700;
-    color: darkkhaki;
-  }
-  #menu .menu ul{
-    display: flex;
-    justify-content:space-around;
-  }
-  #menu .menu ul{
-    list-style: none;
-  }
-
- #menu .menu ul{
-   padding: 0;
-   margin: 0;
-
- } 
-
- #menu li{
+  background-color: #eef3eb;
+  display: flex;
   height: 55px;
 }
-#menu div a{
+#menu .menu {
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+#menu a {
+  font-weight: 700;
+  color: darkkhaki;
+}
+#menu .menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+#menu .menu ul {
+  list-style: none;
+}
+
+#menu .menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  height: 55px;
+}
+#menu div a {
   display: block;
   line-height: 55px;
   padding: 0 15px;
 }
-#menu-form-search form{
+#menu-form-search form {
   margin-right: 20px;
 }
 
-
-
-
-
-
-
-
-  #menu-form-search .search {
-    /* устанавливаем необходимую ширину формы в зависимости от дизайна
+#menu-form-search .search {
+  /* устанавливаем необходимую ширину формы в зависимости от дизайна
       ** форма без проблем растягивается */
-    width: 100%;
-  
-    /* кнопку отправки будем позиционировать абсолютно,
+  width: 100%;
+
+  /* кнопку отправки будем позиционировать абсолютно,
       ** поэтому необходимо это свойство */
-    position: relative;
-  }
-  
-  #menu-form-search .search input {
-    /* отключаем бордюры у инпутов */
-    border: none;
-  }
-  
-  /* стили для поля ввода */
-  #menu-form-search .search .input {
-    /* растягиваем поле ввода на всю ширину формы */
-    width: 100%;
-  
-    /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  position: relative;
+}
+
+#menu-form-search .search input {
+  /* отключаем бордюры у инпутов */
+  border: none;
+}
+
+/* стили для поля ввода */
+#menu-form-search .search .input {
+  /* растягиваем поле ввода на всю ширину формы */
+  width: 100%;
+
+  /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
       ** регулируем высоту формы
       ** внутренний отступ справа (37px) делаем больше левого,
       ** т.к. там будет размещена кнопка отправки	*/
-    padding: 8px;
-  
-    /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
-    
-    
-  
-    /* добавляем внутренние тени */
-    
-  
-    /* закругляем углы */
-      /*border-radius: 20px;*/
-  
-    background: #eee;
-    font: 13px Tahoma, Arial, sans-serif;
-    color: #555;
-    
-  }
-  
-  /* меняем оформление поля ввода при фокусе */
-  #menu-form-search .search .input:focus {
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),
-      inset 0 1px 2px rgba(0, 0, 0, 0.4);
-    background: #e8e8e8;
-    color: rgb(128, 13, 13);
-  }
-  
-  /* оформляем кнопку отправки */
-  #menu-form-search .search .submit {
-    /* позиционируем кнопку абсолютно от правого края формы */
-    
-    
-    
-  
-    width: 37px;
-  
-    /* растягиваем кнопку на всю высоту формы */
-    height: 100%;
-  
-    cursor: pointer;
-   
-      
-    /* добавляем прозрачность кнопке отправки */
-    opacity: 0.5;
-  }
-  
-  /* при наведении курсора меняем прозрачность кнопки отправки */
-  #menu-form-search .search .submit:hover {
-    opacity: 1;
-  }
-  
-  /* данное свойство необходимо для того, чтобы в браузерах
+  padding: 8px;
+
+  /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+
+  /* добавляем внутренние тени */
+
+  /* закругляем углы */
+  /*border-radius: 20px;*/
+
+  background: #eee;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+}
+
+/* меняем оформление поля ввода при фокусе */
+#menu-form-search .search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),
+    inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  background: #e8e8e8;
+  color: rgb(128, 13, 13);
+}
+
+/* оформляем кнопку отправки */
+#menu-form-search .search .submit {
+  /* позиционируем кнопку абсолютно от правого края формы */
+
+  width: 37px;
+
+  /* растягиваем кнопку на всю высоту формы */
+  height: 100%;
+
+  cursor: pointer;
+
+  /* добавляем прозрачность кнопке отправки */
+  opacity: 0.5;
+}
+
+/* при наведении курсора меняем прозрачность кнопки отправки */
+#menu-form-search .search .submit:hover {
+  opacity: 1;
+}
+
+/* данное свойство необходимо для того, чтобы в браузерах
     ** Chrome и Safari можно было стилизовать инпуты */
-  #menu-form-search input[type="search"] {
-    -webkit-appearance: none;
-  }
+#menu-form-search input[type="search"] {
+  -webkit-appearance: none;
+}

@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
 }
-#popular a {
+#popular ul li a {
   margin-top: 0;
   margin-bottom: 1rem;
   flex-grow: 1;
@@ -34,8 +34,11 @@
   width: 50px;
   margin-left: auto;
 }
-#popular .popular-title a {
-  margin-left: 450px;
+#popular .popular-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-top: 10px;
+  width: 100% ;
 }
 
